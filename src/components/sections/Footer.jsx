@@ -1,7 +1,7 @@
 import React from 'react'
 import Button from '../layers/Button'
-//import List from '../layers/List'
-//import ListItem from '../layers/ListItem'
+import List from '../layers/List'
+import ListItem from '../layers/ListItem'
 
 const Footer = () => {
   return (
@@ -22,13 +22,12 @@ const Footer = () => {
               <a href="tel: 012345678989"
                 ><img src="src\svg\call.svg" alt="call" /><span>
                   012345678989</span
-                ></a
-              >
+                ></a>
             </li>
           </ul>
           {/* <List>
             <ListItem href="mailto:abc.support@gmail.com" style="" src="src\svg\mail.svg" alt="mail.svg" ><span>abc.support@gmail.com</span></ListItem>
-            <ListItem href="mailto:abc.support@gmail.com" style="" src="src\svg\call.svg" alt="call.svg" ><span>
+            <ListItem href="tel: 012345678989" style="" src="src\svg\call.svg" alt="call.svg" ><span>
             012345678989</span></ListItem>
 
           </List> */}
